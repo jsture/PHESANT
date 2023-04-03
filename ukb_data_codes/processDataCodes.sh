@@ -23,7 +23,7 @@
 ##
 ## retrieve all field IDs for categorical single and categorical multiple fields
 
-categoricalIds=`cat ../variable-info/outcome-info.tsv | awk -F'\t' '($10=="Categorical single") || ($10=="Categorical multiple") {print $1}'`
+categoricalIds=`cat ../variable-info/outcome-info.tsv | awk -F'\t' '($11=="Categorical single") || ($11=="Categorical multiple") {print $1}'`
 
 echo "Processing categorical (single) and categorical (multiple) data codes"
 

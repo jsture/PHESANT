@@ -1,0 +1,5 @@
+coding	meaning
+1	All rounds completed without reaching error threshold
+2	Error threshold reached
+3	Time limit reached during round of letters
+4	Time limit reached during individual letter

@@ -1,0 +1,4 @@
+coding	meaning
+-1	Grid co-ordinates could not be assigned to one or more home address of participant between waves 1 and 6
+0	Home address of participant did not change between waves 1 and 6
+1	Home address of participant changed between waves 1 and 6

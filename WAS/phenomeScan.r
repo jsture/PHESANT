@@ -49,7 +49,7 @@ option_list <- list(
     make_option(c("-k", "--standardise"), action = "store", default = TRUE, help = "Trait of interest is standardised to have mean=0 and std=1 [default= %default]"),
     make_option(c("-m", "--mincase"), type = "integer", default = 10, help = "Minimum number of cases for categorical outcomes"),
     make_option(c("-p", "--tab"), action = "store", default = FALSE, help = "Phenotype (outcome) file is tab rather than comma seperated [default= %default]"),
-    make_option(c("-x", "--skipirnt"), action = "store", default = FALSE, help = "Skip the IRNT step for continous variables [default= %default]"),
+    make_option(c("-x", "--skipirnt"), action = "store", default = FALSE, help = "Skip the IRNT step for continous variables [default= %default]")
 )
 
 opt_parser <- OptionParser(option_list = option_list)

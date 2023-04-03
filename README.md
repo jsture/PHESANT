@@ -1,4 +1,8 @@
 # PHESANT - PHEnome Scan ANalysis Tool
+**This has been forked from [MRCIEU/PHESANT](https://github.com/MRCIEU/PHESANT) for use with [HauserGroup/gogoGPCR2](https://github.com/HauserGroup/gogoGPCR2) and if you find yourself using it, please cite the original work**
+
+**New additions**: `variable-info` and `ukb_data_codes` are current as of March 2023. Added `--skipirnt` option to `phenomScan.r` to skip applying IRNT to continous variables. 
+
 Run a phenome scan (pheWAS, Mendelian randomisation (MR)-pheWAS etc.) in UK Biobank.
 
 There are three components in this project:

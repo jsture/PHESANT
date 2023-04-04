@@ -61,7 +61,7 @@ testContinuous2 <- function(varName, varType, thisdata) {
         }
     }
 
-    if (valid == FALSE) {
+    if ((valid == FALSE) & (opt$skipordcat == FALSE)) {
         ## treat as ordinal categorical
         cat(">20% IN ONE CATEGORY || ")
 
